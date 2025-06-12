@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "before:init": ["npm run check"],
+    "after:bump": "npm run build"
+  },
+  "git": {
+    "commitMessage": "chore: release v${version}",
+    "pushRepo": "origin"
+  }
+} 
