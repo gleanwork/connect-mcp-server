@@ -1,7 +1,6 @@
 # Changelog
 
-## Unreleased
+## v0.2.0 (2025-06-12)
 
-## 0.1.15
+Initial release.  Bundles the [@modelcontextprotocol/sdk fork](https://github.com/gleanwork/typescript-sdk) with a fix for [OAuth metadata discovery fallback](https://github.com/modelcontextprotocol/typescript-sdk/issues/616).
 
-Initial release with release-it integration. 
