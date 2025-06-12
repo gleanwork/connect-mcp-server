@@ -121,8 +121,8 @@ to the CA certificate file. If using claude_desktop_config.json, this might look
     "\${mcpServerName}": {
       "command": "npx",
       "args": [
-        "mcp-remote",
-        "https://remote.mcp.server/sse"
+        "@gleanwork/connect-mcp-server",
+        "https://<your-glean-instance>-be.glean.com/default/sse"
       ],
       "env": {
         "NODE_EXTRA_CA_CERTS": "\${your CA certificate file path}.pem"

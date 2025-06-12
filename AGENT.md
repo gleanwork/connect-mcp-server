@@ -1,4 +1,4 @@
-# AGENT.md - mcp-remote Development Guide
+# AGENT.md - @gleanwork/connect-mcp-server Development Guide
 
 ## Commands
 
