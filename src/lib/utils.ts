@@ -103,7 +103,7 @@ export function mcpProxy({ transportToClient, transportToServer }: { transportTo
 
     if (message.method === 'initialize') {
       const { clientInfo } = message.params
-      if (clientInfo) clientInfo.name = `${clientInfo.name} (via mcp-remote ${MCP_REMOTE_VERSION})`
+      if (clientInfo) clientInfo.name = `${clientInfo.name} (via @gleanwork/connect-mcp-server ${MCP_REMOTE_VERSION})`
       log(JSON.stringify(message, null, 2))
 
       if (DEBUG) {
@@ -246,7 +246,7 @@ export async function connectToRemoteServer(
         // out if we're actually talking to an HTTP server or not.
         if (DEBUG) debugLog('Creating test transport for HTTP-only connection test')
         const testTransport = new StreamableHTTPClientTransport(url, { authProvider, requestInit: { headers } })
-        const testClient = new Client({ name: 'mcp-remote-fallback-test', version: '0.0.0' }, { capabilities: {} })
+        const testClient = new Client({ name: '@gleanwork/connect-mcp-server-fallback-test', version: '0.0.0' }, { capabilities: {} })
         await testClient.connect(testTransport)
       }
     }
@@ -628,7 +628,7 @@ export async function parseCommandLineArgs(args: string[], usage: string) {
   global.currentServerUrlHash = serverUrlHash
 
   if (DEBUG) {
-    debugLog(`Starting mcp-remote with server URL: ${serverUrl}`)
+    debugLog(`Starting @gleanwork/connect-mcp-server with server URL: ${serverUrl}`)
   }
 
   const defaultPort = calculateDefaultPort(serverUrlHash)

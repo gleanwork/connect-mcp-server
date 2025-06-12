@@ -59,7 +59,7 @@ async function runClient(
   // Create the client
   const client = new Client(
     {
-      name: 'mcp-remote',
+      name: '@gleanwork/connect-mcp-server',
       version: MCP_REMOTE_VERSION,
     },
     {
