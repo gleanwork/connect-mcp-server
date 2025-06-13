@@ -18,6 +18,12 @@
     "LICENSE"
   ],
   "main": "dist/index.js",
+  "exports": {
+    "./lib": {
+      "types": "./dist/lib/index.d.ts",
+      "import": "./dist/lib/index.js"
+    }
+  },
   "bin": {
     "connect-mcp-server": "dist/proxy.js",
     "connect-mcp-server-client": "dist/client.js"
@@ -54,7 +60,8 @@
   "tsup": {
     "entry": [
       "src/client.ts",
-      "src/proxy.ts"
+      "src/proxy.ts",
+      "src/lib/index.ts"
     ],
     "format": [
       "esm"
