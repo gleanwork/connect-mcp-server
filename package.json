@@ -43,7 +43,8 @@
   },
   "dependencies": {
     "express": "^4.21.2",
-    "open": "^10.1.0"
+    "open": "^10.1.0",
+    "strict-url-sanitise": "^0.0.1"
   },
   "devDependencies": {
     "@modelcontextprotocol/sdk": "https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@8f6ea2a",

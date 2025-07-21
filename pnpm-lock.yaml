@@ -14,6 +14,9 @@ importers:
       open:
         specifier: ^10.1.0
         version: 10.1.0
+      strict-url-sanitise:
+        specifier: ^0.0.1
+        version: 0.0.1
     devDependencies:
       '@modelcontextprotocol/sdk':
         specifier: https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@8f6ea2a
@@ -2218,6 +2221,9 @@ packages:
   stdin-discarder@0.2.2:
     resolution: {integrity: sha512-UhDfHmA92YAlNnCfhmq0VeNL5bDbiZGg7sZ2IvPsXubGkiNa9EC+tUTsjBRsYUAz87btI6/1wf4XoVvQ3uRnmQ==}
     engines: {node: '>=18'}
+
+  strict-url-sanitise@0.0.1:
+    resolution: {integrity: sha512-nuFtF539K8jZg3FjaWH/L8eocCR6gegz5RDOsaWxfdbF5Jqr2VXWxZayjTwUzsWJDC91k2EbnJXp6FuWW+Z4hg==}
 
   string-width@4.2.3:
     resolution: {integrity: sha512-wKyQRQpjJ0sIp62ErSZdGsjMJWsap5oRNihHhu6G7JVO/9jIB6UyevL+tXuOqrng8j/cxKTWyWUwvSTriiZz/g==}
@@ -4907,6 +4913,8 @@ snapshots:
   std-env@3.9.0: {}
 
   stdin-discarder@0.2.2: {}
+
+  strict-url-sanitise@0.0.1: {}
 
   string-width@4.2.3:
     dependencies:
