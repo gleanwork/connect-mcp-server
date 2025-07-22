@@ -1,6 +1,6 @@
 {
   "name": "@gleanwork/connect-mcp-server",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Remote proxy for Model Context Protocol, allowing local-only clients to connect to remote servers using oAuth",
   "keywords": [
     "mcp",

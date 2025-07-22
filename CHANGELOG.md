@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2.4 (2025-07-22)
+
+Bump typescript-sdk.  Adds fix for OpenID connect configuration lookup.
+
+
 ## v0.2.3 (2025-07-22)
 
 Export `package.json`
