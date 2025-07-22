@@ -19,8 +19,8 @@ importers:
         version: 0.0.1
     devDependencies:
       '@modelcontextprotocol/sdk':
-        specifier: https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@8f6ea2a
-        version: https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@8f6ea2a
+        specifier: https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@acc52bd
+        version: https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@acc52bd
       '@release-it-plugins/lerna-changelog':
         specifier: ^6.0.0
         version: 6.1.0(release-it@17.11.0(typescript@5.8.2))
@@ -241,8 +241,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@modelcontextprotocol/sdk@https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@8f6ea2a':
-    resolution: {tarball: https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@8f6ea2a}
+  '@modelcontextprotocol/sdk@https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@acc52bd':
+    resolution: {tarball: https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@acc52bd}
     version: 1.12.2
     engines: {node: '>=18'}
 
@@ -2729,7 +2729,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@modelcontextprotocol/sdk@https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@8f6ea2a':
+  '@modelcontextprotocol/sdk@https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@acc52bd':
     dependencies:
       ajv: 6.12.6
       content-type: 1.0.5
