@@ -48,7 +48,7 @@
     "strict-url-sanitise": "^0.0.1"
   },
   "devDependencies": {
-    "@modelcontextprotocol/sdk": "https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@8f6ea2a",
+    "@modelcontextprotocol/sdk": "https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@acc52bd",
     "@release-it-plugins/lerna-changelog": "^6.0.0",
     "@types/express": "^5.0.0",
     "@types/node": "^22.13.10",
