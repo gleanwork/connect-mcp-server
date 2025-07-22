@@ -22,7 +22,8 @@
     "./lib": {
       "types": "./dist/lib/index.d.ts",
       "import": "./dist/lib/index.js"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "bin": {
     "connect-mcp-server": "dist/proxy.js",
