@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.2.3 (2025-07-22)
+
+Export `package.json`
+
+
 ## v0.2.2 (2025-07-21)
 
 Merge upstream mcp-remote v0.1.16 for fix CVE-2025-6514
