@@ -47,6 +47,14 @@
     "open": "^10.1.0",
     "strict-url-sanitise": "^0.0.1"
   },
+  "//": {
+    "overrides-qs": "Express 4.x does not support the latest version of qs, which is required to address: https://github.com/gleanwork/mcp-server/security/dependabot/35"
+  },
+  "pnpm": {
+    "overrides": {
+      "qs": "^6.14.1"
+    }
+  },
   "devDependencies": {
     "@modelcontextprotocol/sdk": "https://pkg.pr.new/gleanwork/typescript-sdk/@modelcontextprotocol/sdk@acc52bd",
     "@release-it-plugins/lerna-changelog": "^6.0.0",
