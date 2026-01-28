@@ -1,5 +1,8 @@
 # @gleanwork/connect-mcp-server
 
+> [!WARNING]
+> **ARCHIVED**: This repository is no longer maintained and is being archived as it is no longer in use.
+
 Connect an MCP client to Glean's remote MCP servers for tools and agents.
 
 This is a fork of the excellent [mcp-remote](https://github.com/geelen/mcp-remote) that provides OAuth support with discovery fallback to `openid-configuration`.  For more details see [this issue](https://github.com/modelcontextprotocol/typescript-sdk/issues/616).
